@@ -1,0 +1,28 @@
+# Dataset (download separately -- see README)
+data/MHEALTHDATASET/
+data/*.zip
+data/*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Checkpoints / experiment artifacts (large, regenerable)
+ckpt/
+*.pkl
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
