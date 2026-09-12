@@ -1,0 +1,17 @@
+# Core ML / DP-SGD
+torch>=2.2
+opacus>=1.5
+dp-accounting>=0.4
+
+# Homomorphic encryption / lightweight crypto
+tenseal>=0.3.14
+ascon>=0.0.9
+
+# Data handling / preprocessing
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# Notebook environment
+jupyter>=1.0
+ipykernel>=6.0
